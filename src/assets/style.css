@@ -1,0 +1,530 @@
+body {
+  background: #e6e7ee;
+}
+
+.btn-connect {
+  color: #172683;
+  box-shadow: 6px 6px 12px #18d59c, -6px -6px 12px #ffff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 30px;
+  background: #00dd9a;
+  border: 1px solid #00dd9a;
+}
+.btn-connect:hover {
+  background: #e6e7ee;
+  box-shadow: inset 6px 6px 12px #e6e7ee, inset -6px -6px 12px #ffff;
+  border: 1px solid #00dd9a;
+}
+
+.bg-sidebar {
+  background: #e8ebf3;
+}
+
+.bg-blue {
+  background: #172683;
+  color: white;
+}
+
+.btn-more {
+  background: #ffff;
+  color: #888888;
+}
+
+.secondary-color {
+  color: #172683;
+}
+
+.primary-color {
+  color: #00dd9a;
+}
+
+.tertiary-color {
+  color: #ff6d6d;
+}
+
+.bg-image {
+  background-image: url(../assets/images/main.png);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.wallet-card {
+  background: #e6e7ee;
+  box-shadow: 6px 6px 12px #c8cad5, -6px -6px 12px #ffff;
+  border-radius: 5px;
+  width: 25rem;
+}
+
+.your-wallet-card {
+  background: #e6e7ee;
+  box-shadow: 6px 6px 12px #c8cad5, -6px -6px 12px #ffff;
+  border-radius: 5px;
+  width: 10rem;
+  height: 40px;
+  line-height: 0.9;
+}
+
+.wallet-card:hover {
+  box-shadow: inset 6px 6px 12px #c8cad5, inset -6px -6px 12px #ffff;
+}
+
+.bg-sidebar {
+  background: #e8ebf3;
+  box-shadow: 6px 6px 12px #c8cad5, -6px -6px 12px #ffff;
+}
+
+.card {
+  background: #ffff;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 6px 6px 12px #c8cad5, -6px -6px 12px #ffff;
+}
+
+.arrow-card{
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.cards-container{
+  display: block;
+}
+
+.card-coin {
+  background: #e6e7ee;
+  box-shadow: 6px 6px 12px #c8cad5, -6px -6px 12px #ffff;
+  padding: 1rem;
+  border-radius: 5px;
+  max-width: 350px;
+  min-width: 30%;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 35px;
+  min-height: 225px;
+  height: 225px;
+  margin-right: 45px;
+}
+
+.card-icon-img{
+  height: 63px;
+  width: auto;
+}
+
+.coin-expand-card-partial{
+  margin-top: 20px;
+  min-width: 333px;
+  max-width: 300px;
+}
+
+.coin-card-expand {
+  background: #e6e7ee;
+  box-shadow: inset 6px 6px 12px #c8cad5, inset -6px -6px 12px #ffff;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  border-radius: 5px;
+  max-width: 1050px;
+  min-width: 1050px;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-color {
+  color: #888888;
+}
+
+.btn-value {
+  border: 1px solid #00dd9a;
+  color: #00dd9a;
+  width: 10%;
+}
+
+.btn-deposit {
+  background: #e6e7ee;
+  box-shadow: 6px 6px 12px #c8cad5, -6px -6px 12px #ffff;
+  border-radius: 5px;
+  color: #172683;
+  width: 80%;
+  margin: 15px 0px;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.btn-deposit:hover {
+  background: #e6e7ee;
+  box-shadow: inset 6px 6px 12px #c8cad5, inset -6px -6px 12px #ffff;
+}
+
+.btn-action-container{
+  display: inline-block;
+  text-align: center;
+}
+.btn-action-container button{
+  min-width: 300px;
+}
+.percentage-holder {
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+.single-percentage-btn {
+  display: inline-flex;
+  margin-right: 12px;
+  border: 1px solid #172683;
+  color: #172683;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  width: 55px;
+  justify-content: center;
+}
+
+.nord-card-input {
+  width: 90%;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  background: #e6e7ee;
+  box-shadow: inset 6px 6px 12px #c8cad5, inset -6px -6px 12px #ffff;
+}
+
+.back-container{
+  text-align: left;
+  color: #172683;
+  vertical-align: middle;
+  display: flex;
+  cursor: pointer;
+  margin: 10px 0px 0px 0px;
+}
+.back-container img{
+  height: 20px;
+  margin-right: 12px;
+  margin-left: 0px;
+  margin-bottom: 14px;
+  display: inline;
+}
+.back-container p{
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+  display: inline;
+}
+.error {
+  font-size: 24px !important;
+  color: #ff6d6d !important;
+}
+
+.wallet-label {
+  line-height: 1.25;
+}
+
+* {
+  outline: 0 !important;
+}
+
+.Toastify__toast--success {
+  background: #172683 !important;
+}
+.Toastify__toast--warning {
+  background: #f1c800 !important;
+}
+.Toastify__toast--error {
+  background: #ff6d6d !important;
+}
+
+.Toastify__toast {
+  border-radius: 10px !important;
+  padding: 16px !important;
+}
+
+.Toastify__close-button > svg {
+  height: 45px !important;
+  width: 14px !important;
+}
+
+.Toastify__toast-body {
+  font-size: 14px !important;
+}
+
+.Toastify__toast-container {
+  margin-left: 18rem !important;
+}
+
+
+.web3modal-provider-container {
+  background: #e6e7ee !important;
+  box-shadow: 6px 6px 12px #c8cad5, -6px -6px 12px #ffff;
+}
+
+.web3modal-provider-container:hover {
+  background: #e6e7ee;
+  box-shadow: inset 6px 6px 12px #c8cad5, inset -6px -6px 12px #ffff;
+}
+
+.web3modal-provider-wrapper {
+  background-color: #e6e7ee;
+  border: none !important;
+}
+
+/* Don't forget! User accessibility is important */
+input[type="button"]:focus, 
+button:focus {
+  /* your custom focused styles here */
+  outline: none;
+  border: none;
+  outline-color: transparent;
+}
+*:focus,
+*:active,
+*:hover{
+  outline: none;
+  border: none;
+  outline-color: transparent;
+}
+
+/*** start toggle css ***/
+
+input[type="checkbox"].switch {
+  position: absolute;
+  opacity: 0;
+}
+
+input[type="checkbox"].switch + div {
+  vertical-align: middle;
+  width: 64px;
+  height: 27px;
+  border-radius: 999px;
+  border: 1px solid #fff;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow;
+  background-color:transparent;
+  cursor: pointer;
+}
+
+
+input[type="checkbox"].switch + div span {
+  position: absolute;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 12px;
+}
+
+input[type="checkbox"].switch + div span:nth-child(1) {
+  margin-left: 0px;
+}
+
+input[type="checkbox"].switch + div span:nth-child(2) {
+  margin-left: 55px;
+}
+
+input[type="checkbox"].switch:checked + div {
+  width: 64px;
+  background-position: 0 0;
+  background-color: #00dd9a;
+}
+
+input[type="checkbox"].switch + div {
+  width: 64px;
+  height: 27px;
+}
+
+input[type="checkbox"].switch:checked + div {
+  background: #00dd9a;
+}
+
+input[type="checkbox"].switch + div > div {
+  float: left;
+  width: 19px;
+  height: 19px;
+  border-radius: inherit;
+  background: #ffff;
+  -webkit-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: transform, background-color;
+  transition-property: transform, background-color;
+  pointer-events: none;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+input[type="checkbox"].switch:checked + div > div {
+  -webkit-transform: translate3d(20px, 0, 0);
+  transform: translate3d(20px, 0, 0);
+  background-color: #fff;
+
+  margin-left: -0.5px;
+}
+
+input[type="checkbox"].bigswitch.switch + div > div {
+  width: 46px;
+  height: 10px;
+  margin-top: 1px;
+}
+
+input[type="checkbox"].switch:checked + div > div {
+  -webkit-transform: translate3d(39px, 0, 0);
+  transform: translate3d(39px, 0, 0);
+}
+
+/*** end toggle css ***/
+.tab {
+  cursor: pointer;
+}
+.tab.active {
+  color: #172683;
+  font-weight: 600;
+  border-bottom: 1px solid #172683;
+}
+.staking-title-holder {
+  display: flex;
+}
+.staking-title-holder p {
+  margin-left: 12px;
+}
+.staking-key-v-container p:nth-child(1) {
+  min-width: 100px;
+}
+.staking-key-v-container p:nth-child(2) {
+  margin-left: 0px !important;
+}
+.staking-switch-container {
+  padding-left: 40px;
+}
+.card-coin.cursor-pointer div p:nth-child(1) {
+  min-width: 100px;
+}
+.card-coin.cursor-pointer div p:nth-child(2) {
+  margin-left: 0px !important;
+}
+
+/*** Tooltip css ***/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #172683;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -150px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/*** Tooltip css ***/
+
+/*** Modal css ***/
+
+.btn-continue {
+  box-shadow: 6px 6px 12px #18d59c, -6px -6px 12px #ffff;
+  background: #00dd9a;
+  border: 1px solid #00dd9a;
+  border-radius: 5px;
+  color:#172683;
+  font-weight: 500;
+  outline: none;
+}
+
+.btn-continue:hover {
+  background: #e6e7ee;
+  box-shadow: inset 6px 6px 12px #c8cad5, inset -6px -6px 12px #ffff;
+  border: 1px solid #00dd9a;
+}
+
+.btn-cancel {
+  background: #e6e7ee;
+  box-shadow: 6px 6px 12px #c8cad5, -6px -6px 12px #ffff;
+  border-radius: 5px;
+  color: #172683;
+  font-weight: 500;
+  justify-content: center;
+}
+.sidebar-back{
+  margin: 20% 0;
+}
+
+.footer-nord-finance {
+  position: inherit;
+}
+._loading_overlay_overlay{
+  margin-left: 5px;
+  width: 98%;
+  background: rgba(230,231,238,0.8) !important;
+}
+
+.refresh-text, .loading-message-text {
+  color: #172683;
+}
+
+.custom-loading-overlay{
+  width: 100vw;
+  height: 100vh;
+  min-width: 1400px;
+  overflow: auto;
+  min-height: 700px;
+  display: flex;
+}
+@media only screen and (min-width: 1400px) {
+  .footer-nord-finance {
+    position: absolute;
+    bottom: 4rem;
+    width: 100%;
+  }
+}
+@media screen and (max-height: 700px) {
+  .sidebar-back{
+    margin: 7% 0;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c8cad5;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #172683;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #172683;
+}

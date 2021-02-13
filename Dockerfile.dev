@@ -1,0 +1,8 @@
+FROM node:12
+WORKDIR /app
+COPY package.json .
+COPY .sample.env .env
+RUN npm install -g npm@7.5.4
+RUN npm install --legacy-peer-deps
+COPY . . 
+CMD ["npm", "start"]

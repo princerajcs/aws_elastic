@@ -1,0 +1,19 @@
+sudo: required
+language: generic
+services:
+  - docker
+
+before_install:
+  - docker build -t  princerajcs/aws_elastic -f Dockerfile.dev .
+
+deploy:
+  provider: elasticbeanstalk
+  region: us-east-2
+  app: aws_elastic
+  env: Awselastic-env
+  bucket_name: elasticbeanstalk-us-east-2-387074421955
+  bucket_path: aws_elastic
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY

@@ -1,0 +1,7 @@
+node_modules
+.eslintcache
+.vscode
+build
+*.DS_Store
+.env
+build/
